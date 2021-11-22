@@ -1,6 +1,5 @@
 {
-  "name": "cms",
-  "private": true,
+  "name": "@astore/cms",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
