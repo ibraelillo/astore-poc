@@ -1,0 +1,23 @@
+{
+  "name": "@astore/root",
+  "version": "1.0.0",
+  "description": "Marketplace for selling fournitures to hotels",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "l": "lerna",
+    "preinstall": "yarn syncDeps",
+    "postinstall": "yarn lerna bootstrap",
+    "syncDeps": "npx syncpack fix-mismatches"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^2.2.19",
+    "next": "12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
